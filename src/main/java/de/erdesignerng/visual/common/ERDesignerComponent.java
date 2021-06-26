@@ -741,6 +741,7 @@ public final class ERDesignerComponent implements ResourceHelperProvider {
         theToolBar.add(theViewMenu);
         theToolBar.addSeparator();
 
+        theToolBar.add(theDBConnectionAction);
         theToolBar.add(theNewAction);
         theToolBar.addSeparator();
         theToolBar.add(theLoadAction);
